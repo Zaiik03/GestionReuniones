@@ -1,5 +1,3 @@
-package org.example;
-
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -17,7 +15,7 @@ public class ReunionPresencial extends Reunion{
      * @param organizador Organizador de la Reunión
      * @param tipodereunion Especifica el tipo de reunión (Marketing, tecnica, otros...)
      */
-    public ReunionPresencial(LocalDate fecha, LocalDateTime horaPrevista, Duration duracionPrevista, String ubicacion, org.example.Empleado organizador, String tipodereunion){
+    public ReunionPresencial(LocalDate fecha, LocalDateTime horaPrevista, Duration duracionPrevista, String ubicacion, Empleado organizador, String tipodereunion){
         super(fecha, horaPrevista, duracionPrevista, ubicacion, organizador, tipodereunion);
     }
 }

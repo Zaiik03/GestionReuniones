@@ -1,5 +1,3 @@
-package org.example;
-
 /**
  * Enum de tipos de Reunión
  */

@@ -1,13 +1,12 @@
 package org.example;
-import java.lang.reflect.Array;
-import java.time.Instant;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 /**
  * Clase departamento
  */
-public class Departamento implements Invitable{
+public class Departamento implements Invitable {
     /**
      * ArrayList con los empleados que pertenecen al departamento
      */
@@ -17,13 +16,13 @@ public class Departamento implements Invitable{
      */
     private ArrayList<Empleado> aux;
     /**
-     * String con el nombre del Departamento
+     * String con el nombre del org.example.Departamento
      */
     private String nombre;
 
     /**
-     * Constructor Departamento
-     * @param nombre_depa se le ingresa el nombre del Departamento
+     * Constructor org.example.Departamento
+     * @param nombre_depa se le ingresa el nombre del org.example.Departamento
      */
     public Departamento(String nombre_depa){
         empleados = new ArrayList<Empleado>();
