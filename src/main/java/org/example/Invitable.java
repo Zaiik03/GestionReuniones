@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
  */
 public interface Invitable {
     /**
-     * Método para invitar Empleado
+     * Método para invitar org.example.Empleado
      * @param reunion reunion
      * @param horita hora
      */

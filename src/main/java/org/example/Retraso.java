@@ -7,13 +7,13 @@ import java.time.LocalDateTime;
  */
 public class Retraso extends Asistencia{
     /**
-     * Variable que almacena la hora de llegada del Empleado con atraso
+     * Variable que almacena la hora de llegada del org.example.Empleado con atraso
      */
     private LocalDateTime horaLlegada;
 
     /**
      * Método constructor de Retraso
-     * @param e es un Empleado
+     * @param e es un org.example.Empleado
      * @param horaLlegada es LocalDateTime
      */
     public Retraso(Empleado e, LocalDateTime horaLlegada){

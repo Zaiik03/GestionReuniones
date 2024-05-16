@@ -1,3 +1,5 @@
+import org.example.Empleado;
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -5,13 +5,13 @@ package org.example;
  */
 public abstract class Asistencia {
     /**
-     * Variable tipo Empleado que representa el empleado al que se está evaluando la asistencia
+     * Variable tipo org.example.Empleado que representa el empleado al que se está evaluando la asistencia
      */
     public Empleado usuario;
 
     /**
      * Método constructor de Asistencia
-     * @param e es un Empleado
+     * @param e es un org.example.Empleado
      */
     public Asistencia(Empleado e){
         this.usuario = e;

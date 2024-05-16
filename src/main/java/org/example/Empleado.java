@@ -1,34 +1,31 @@
-import org.example.Invitable;
-import org.example.Invitacion;
-import org.example.Presente;
-import org.example.Retraso;
+package org.example;
 
 import java.time.LocalDateTime;
 
 /**
- * Clase que representa al Empleado
+ * Clase que representa al org.example.Empleado
  */
 
 public class Empleado implements Invitable {
     /**
-     * Variable que almacena el id del Empleado
+     * Variable que almacena el id del org.example.Empleado
      */
     private String id;
     /**
-     * Variable que almacena el apellido del Empleado
+     * Variable que almacena el apellido del org.example.Empleado
      */
     private String apellido;
     /**
-     * Variable que almacena el nombre del Empleado
+     * Variable que almacena el nombre del org.example.Empleado
      */
     private String nombre;
     /**
-     * Variable que almacena el correo electronico del Empleado
+     * Variable que almacena el correo electronico del org.example.Empleado
      */
     private String correo;
 
     /**
-     * Método constructor de Empleado
+     * Método constructor de org.example.Empleado
      * @param id es un String
      * @param nombre es un String
      * @param apellido es un String
@@ -43,7 +40,7 @@ public class Empleado implements Invitable {
 
     /**
      * Método getter
-     * @return Retorna el id del Empleado
+     * @return Retorna el id del org.example.Empleado
      */
     public String getId() {
         return this.id;
@@ -51,7 +48,7 @@ public class Empleado implements Invitable {
 
     /**
      * Método getter
-     * @return Retorna los datos del Empleado
+     * @return Retorna los datos del org.example.Empleado
      */
     @Override
     public String toString() {
@@ -71,7 +68,7 @@ public class Empleado implements Invitable {
     }
 
     /**
-     * Método para que un Empleado confirme su asistencia a la reunion
+     * Método para que un org.example.Empleado confirme su asistencia a la reunion
      * @param horallegada es LocalDateTime
      * @param reunion es Reunion
      */

@@ -17,7 +17,7 @@ public class Invitacion{
     /**
      * Constructor Invitación
      * @param hora Hora prevista
-     * @param empleado Empleado invitado
+     * @param empleado org.example.Empleado invitado
      */
     public Invitacion(LocalDateTime hora, Empleado empleado){
         this.hora = hora;
