@@ -1,4 +1,4 @@
-import org.example.Empleado;
+package org.example;
 
 import java.time.Duration;
 import java.time.LocalDate;
